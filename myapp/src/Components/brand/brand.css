@@ -1,0 +1,21 @@
+.brand_container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.brand_container img{
+    margin: 6rem 2rem;
+}
+@media screen and (max-width:750px) {
+    .brand_container img{
+        margin: 6rem 1rem;
+    }   
+}
+@media screen and (max-width:750px) {
+    .brand_container img{
+        margin: 5rem 0.5rem;
+        width: 62px;
+        color: #fff;
+    }   
+}

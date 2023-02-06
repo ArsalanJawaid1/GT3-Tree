@@ -1,0 +1,31 @@
+.article_container {
+  font-family: "Manrope";
+  margin-left: 2rem;
+}
+.articleA{
+  width: 19rem;
+  height: 17rem;
+  margin-bottom: 3rem;
+}
+.aticle_img img {
+  width: 100%;
+}
+.article_text_container{
+  padding: 1rem;
+margin-top: -1rem;
+background: #042C54;
+}
+.article_text p {
+  font-weight: 500;
+  font-size: 11.649px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.article_text h2 {
+  width: 284.23px;
+  height: 90.86px;
+  font-weight: 800;
+  font-size: 19.3154px;
+  line-height: 30px;
+  color: #ffffff;
+}

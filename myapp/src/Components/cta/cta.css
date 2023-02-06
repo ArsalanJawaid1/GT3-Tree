@@ -1,0 +1,126 @@
+.cta_container {
+  margin: 3rem 6rem;
+  border: 1px solid white;
+  padding: 2rem;
+  display: flex;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10.7236px;
+  font-family: var(--font-family);
+  justify-content: space-between;
+}
+.cta_left p {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 26px;
+  color: #0e0e0e;
+}
+.cta_left h2 {
+  width: 801.87px;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 40px;
+  color: #000000;
+}
+.cta_right button {
+  width: 180px;
+  height: 59px;
+  background: #000000;
+  border-radius: 40px;
+  font-family: var(--font-family);
+  font-size: 19px;
+  color: #ffffff;
+  cursor: pointer;
+}
+@media screen and (max-width: 1050px) {
+  .cta_container {
+    align-items: center;
+  }
+  .cta_left {
+    width: 50%;
+  }
+  .cta_left h2 {
+    width: 501.87px;
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 950px) {
+    .cta_container {
+      align-items: center;
+    }
+    .cta_left h2 {
+      width: 440px;
+      font-size: 26px;
+      line-height: 28px;
+    }
+  }
+@media screen and (max-width: 850px) {
+    .cta_container {
+      align-items: center;
+    }
+    .cta_left h2 {
+      width: 400px;
+      font-size: 26px;
+      line-height: 28px;
+    }
+  }
+  @media screen and (max-width: 710px) {
+    .cta_container {
+      align-items: center;
+    }
+    .cta_left h2 {
+      width: 100px;
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+@media screen and (max-width: 750px) {
+  .cta_container {
+    align-items: center;
+  }
+  .cta_left {
+    width: 50%;
+  }
+  .cta_left h2 {
+    width: 301.87px;
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .cta_right button {
+    width: 160px;
+    height: 52px;
+    border-radius: 40px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cta_container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    width: 350px;
+    margin: 1rem;
+    margin-top: 2rem;
+  }
+  .cta_left {
+    width: 100%;
+  }
+  .cta_left h2 {
+    width: 100%;
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .cta_right{
+    align-items: center;
+  }
+  .cta_right button {
+    margin-top: 1rem;
+    width: 140px;
+    height: 52px;
+    border-radius: 20px;
+    font-size: 18px;
+  }
+}

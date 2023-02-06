@@ -1,0 +1,103 @@
+.gpt3__navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.navbar-logo{
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+}
+.navbar-logo img{
+    width: 62px;
+    height: 16px;
+}
+.navbar_links{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar_links ul{
+    display: flex;
+}
+.navbar_links ul li{
+    text-decoration: none;
+    list-style: none;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0rem 1rem;
+    font-family: var(--font-family);
+    cursor: pointer;
+}
+.navbar_sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-transform: capitalize;
+}
+.navbar_sign p{
+    color: #ffff;
+    font-family: var(--font-family);
+    margin: 0rem 1rem;
+}
+.navbar_sign button{
+    color: #ffff;
+    background: #ff4820;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    outline: none;
+}
+@media screen and (max-width:1050px){
+    .navbar_links ul li{
+        font-size: 18px;
+        margin: 0rem 0.7rem;
+    }   
+}
+@media screen and (max-width:970px) {
+    .navbar_links ul li{
+        font-size: 16px;
+        margin: 0rem 0.5rem;
+    }   
+}
+@media screen and (max-width:890px) {
+    .navbar_links ul li{
+        font-size: 15px;
+        margin: 0rem 0.4rem;
+    }
+    .navbar_sign button{
+        padding: 0.5rem 0.8rem;
+        font-size: 15px;
+    }   
+}
+@media screen and (max-width:700px) {
+    .navbar_links{
+        display: flex;
+        align-items: flex-end;
+    }
+    .navbar_links ul {
+        /* font-size: 13px;
+        margin: 0rem 0.4rem; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        /* margin-left: 17rem; */
+    }
+    .navbar_sign{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar_sign p{
+        font-size: 14px;
+    }
+    .navbar_sign button{
+        padding: 0.4rem 0.6rem;
+        font-size: 13px;
+    }   
+}
